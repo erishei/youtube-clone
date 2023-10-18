@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: darkorchid;
+    height: 56px;
+}
+
+aside {
+    background-color: yellow;
+}
+
+main, .side-menu, .main-content {
+    overflow-y: scroll;
+}
+
+main {
+    background-color: cornflowerblue;
+    flex-grow: 1;
+    display: flex;
+}
+
+.side-menu {
+    background-color: yellow;
+    width: 240px;
+    flex-shrink: 0;
+    flex-grow: 0;
+
+}
+
+.main-content {
+    background-color: lime;
+    flex-grow: 1;
+/*  Flex grow determines the width, 2 would mean twice the size
+    of the first child. 1 makes it take the remaining width of the page */
+}
