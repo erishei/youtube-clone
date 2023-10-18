@@ -10,8 +10,14 @@ body {
 }
 
 header {
-    background-color: darkorchid;
+    background-color: black;
     height: 56px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 0 .5rem;
 }
 
 aside {
@@ -41,4 +47,14 @@ main {
     flex-grow: 1;
 /*  Flex grow determines the width, 2 would mean twice the size
     of the first child. 1 makes it take the remaining width of the page */
+}
+
+.menu-button-and-logo {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.menu-button-and-logo div {
+    height: 20px;
 }

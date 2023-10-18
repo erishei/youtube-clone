@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="69a4e543-b330-462c-a598-f4b161ea0a03" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Add-Fontawesome#2",
+    "git-widget-placeholder": "header",
     "last_opened_file_path": "/Users/erica/Documents/Repos/youtube-clone",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
